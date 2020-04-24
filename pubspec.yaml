@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +19,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: SamimBold
+      fonts:
+        - asset: assets/fonts/Samim-Bold-FD-WOL-1.ttf
+    - family: Samim
+      fonts:
+        - asset: assets/fonts/Samim.ttf
+    - family: Antapani
+      fonts:
+        - asset: assets/fonts/Antapani-ExtraBold.otf
